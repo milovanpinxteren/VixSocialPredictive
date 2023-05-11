@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+<h1>test</h1>
+<form action="./scrape_twitter" method="post" enctype="multipart/form-data" autocomplete="off">
+    <div>
+        {% csrf_token %}
+
+        <p>
+            <br>
+            <button type="submit">Scrape Twitter</button>
+        </p>
+    </div>
+</body>
+</html>
